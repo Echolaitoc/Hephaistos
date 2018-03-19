@@ -2,7 +2,7 @@
 
 public static class Hephaistos
 {
-    private static Object InstantiatePrefab(Object original)
+    public static Object InstantiatePrefab(Object original)
     {
 #if UNITY_EDITOR
         return UnityEditor.PrefabUtility.InstantiatePrefab(original);
